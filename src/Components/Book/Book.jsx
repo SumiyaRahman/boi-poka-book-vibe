@@ -26,9 +26,9 @@ const Book = ({ book }) => {
           <p className="text-[#131313cc] font-medium text-sm">By : {author}</p>
         </div>
         <hr className="my-5" />
-        <div className="flex justify-between items-center text-xs font-medium">
+        <div className="flex justify-between items-center text-xs font-medium text-[#131313cc]">
           <p>{category}</p>
-          <p>
+          <p className="text-[#131313cc]">
             {rating}
             <span>
               <i class="fa-regular fa-star ml-2"></i>
